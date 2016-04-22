@@ -27,3 +27,23 @@ ViewModel.swift
   ViewModelDataSource // Generates and updates view model
 Route.swift
 ```
+
+### Install
+* If you are using [Alcatraz][href2], you should be able to download it from there. Search for **SwiftViper** Under **Templates**
+[href2]: https://github.com/supermarin/Alcatraz
+* Using command line
+  ```
+  $ git clone https://github.com/freesuraj/SwiftViper
+  $ cd SwiftViper
+  $ sh .install-templates.sh
+  ```
+
+### Usage
+#### Using XCode
+After you've installed the template in Xcode, restart the Xcode. In your Xcode project, when you create a new file, you can select **SwiftViper**.
+#### Using node.js
+
+```
+$ cd SwiftViper/NodeJs
+$ node app.js -d DIRECTORY/TO/SAVE -c MODULENAME
+```
