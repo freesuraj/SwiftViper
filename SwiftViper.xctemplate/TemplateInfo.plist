@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>Swift Viper</string>
+	<key>Description</key>
+	<string>Generates files for VIPER model in Swift</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFiles</key>
+	<array>
+		<string>___FILEBASENAME___Presenter.swift</string>
+		<string>___FILEBASENAME___Interactor.swift</string>
+		<string>___FILEBASENAME___Route.swift</string>
+		<string>___FILEBASENAME___Protocol.swift</string>
+		<string>___FILEBASENAME___Presenter.xib</string>
+		<string>___FILEBASENAME___ViewModel.swift</string>
+		<string>___FILEBASENAME___ApiManager.swift</string>
+		<string>___FILEBASENAME___DataManager.swift</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the module to create</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Module Name</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>Swift</string>
+			<key>Description</key>
+			<string>The language of template</string>
+			<key>Identifier</key>
+			<string>templateLanguage</string>
+			<key>Name</key>
+			<string>Language:</string>
+			<key>Required</key>
+			<false/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Summary</key>
+	<string>Templates for Swift using VIPER Model</string>
+</dict>
+</plist>
