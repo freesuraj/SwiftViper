@@ -1,5 +1,5 @@
 
-import UIKit
+import Foundation
 
 class ___FILEBASENAMEASIDENTIFIER___DataManager: NSObject, ___FILEBASENAMEASIDENTIFIER___DataManagerProtocol {
     var apiManager: ___FILEBASENAMEASIDENTIFIER___ApiDataManagerProtocol?
