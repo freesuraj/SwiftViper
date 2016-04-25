@@ -23,8 +23,8 @@ Presenter.swift
 Presenter.xib
 Interactor.swift
 ViewModel.swift
-  ViewModel // Responsible for everything associated with a view, including implementing any datasources, delegates etc.
-  ViewModelDataSource // Generates and updates view model
+  ViewManager // Responsible for everything associated with a view, including implementing any datasources, delegates etc.
+  ViewManagerDataSource // Generates and updates view model
 Route.swift
 ```
 

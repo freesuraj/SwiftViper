@@ -7,11 +7,11 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ViewModel: NSObject {
+class ___FILEBASENAMEASIDENTIFIER___ViewManager: NSObject {
 
 }
 
 /// Responsible to generate or update view model
-class ___FILEBASENAMEASIDENTIFIER___ViewModelDataSource: NSObject {
+class ___FILEBASENAMEASIDENTIFIER___ViewManagerDataSource: NSObject {
     
 }

@@ -19,7 +19,7 @@
 		<string>___FILEBASENAME___Route.swift</string>
 		<string>___FILEBASENAME___Protocol.swift</string>
 		<string>___FILEBASENAME___Presenter.xib</string>
-		<string>___FILEBASENAME___ViewModel.swift</string>
+		<string>___FILEBASENAME___ViewManager.swift</string>
 		<string>___FILEBASENAME___ApiManager.swift</string>
 		<string>___FILEBASENAME___DataManager.swift</string>
 	</array>
