@@ -1,0 +1,16 @@
+
+import Foundation
+
+class ___FILEBASENAMEASIDENTIFIER___ConfigSetup: NSObject {
+    // The following is just an example of how to use the configuration. Please modify to fit your requirement.
+    /*
+    func isEnabled() -> Bool {
+          return ConfigManager.globalManager.boolForKeyPath("___FILEBASENAMEASIDENTIFIER___.enabled")
+      }
+
+      func configurations() -> [[String: AnyObject]]? {
+          let modules = ConfigManager.globalManager.arrayForKeyPath("___FILEBASENAMEASIDENTIFIER___.modules")
+          return modules as? [[String: AnyObject]]
+      }
+      */
+}

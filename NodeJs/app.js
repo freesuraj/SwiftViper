@@ -23,7 +23,7 @@ process.argv.forEach(function(val, index, array) {
 });
 
 dir.readFiles(path.join(__dirname, '/templates'),
-  { match: /.tmp$/,
+  { match: /.tmpg$/,
     exclude: /^\./
   }, function(err, content, filename,  next) {
         if (err) throw err;
